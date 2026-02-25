@@ -1,2 +1,2 @@
 #!/bin/bash
-python app.py
+gunicorn app:flask_app
